@@ -4,8 +4,8 @@ on:
   schedule:
    # 每天国际时间 17:20 运行一次, 中国时间 01:20
    # 每天国际时间 09：30运行一次，中国时间 17：30
-    # - cron: '30 03 * * *'
-    - cron: '${random.int[35,45]} 02  * * *'
+    - cron: '42 02 * * *'
+    # - cron: '${random.int[35,45]} 02  * * *'
   workflow_dispatch:
 jobs:
   signin:
